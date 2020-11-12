@@ -1,1 +1,13 @@
-.movie__data .movie__title {color:#fff}
+.movies {display:flex; flex-wrap:wrap}
+.movie {flex:0 0 45%; position:relative; padding:20px 0 0 0; box-sizing:border-box}
+.movie:nth-child(even) {margin-left:10%}
+.movie:nth-child(2) ~ .movie {margin-top:50px}
+.movie .moive__thumb {position:absolute; top:0; left:20px; width:150px; height:226px; background:#1f1f1f; box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.3);}
+.movie .moive__thumb img {width:100%}
+.movie .movie__data {min-height:226px; padding:20px 20px 20px 200px; background:#fff; box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.1);}
+.movie .movie__data .movie__title {font-weight:400; font-size:22px}
+.movie .movie__data .movie__year {padding-top:8px; font-weight:400; font-size:14px; color:#575959}
+.movie .movie__data .genres {padding-top:5px}
+.movie .movie__data .genres .movie__genre {display:inline-block; font-size:14px; color:#575959}
+.movie .movie__data .genres .movie__genre ~ .movie__genre {margin-left:10px}
+.movie .movie__data .movie__summary {line-height:1.26; padding-top:20px; font-size:14px; color:#575959}
