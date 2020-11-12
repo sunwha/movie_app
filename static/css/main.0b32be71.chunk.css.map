@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Movie.css","webpack://src/App.css"],"names":[],"mappings":"AAAA,2BAA4B,UAAU,CCAtC,KAAM,wBAAwB","file":"main.0b32be71.chunk.css","sourcesContent":[".movie__data .movie__title {color:#fff}","body {background-color:#2f2f2f}"]}
