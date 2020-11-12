@@ -19,10 +19,15 @@ ol, ul {list-style:none}
 blockquote, q {quotes:none}
 blockquote:before, blockquote:after, q:before, q:after {content:''; content:none}
 table {border-collapse:collapse; border-spacing:0}
+a {color:#000; text-decoration:none}
 a:focus,
 a:active,
 button:focus,
 button:active {outline:none}
 
 body {background-color:#EAEEF1}
-.container {width:1200px; margin:0 auto}
+.container {width:1200px; margin:50px auto}
+.nav {position:fixed; top:5%; left:5%; z-index:1; border-radius:5px; background:#fff; box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);}
+.nav li {padding:10px}
+.nav li ~ li {border-top:1px solid #ccc}
+.nav a {font-size:14px}
